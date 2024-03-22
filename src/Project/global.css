@@ -1,0 +1,247 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+  height: 85px;
+  background-color: transparent;
+  background-repeat: repeat;
+  color: #E5E5E5;
+  position: sticky;
+  top: 0px;
+}
+
+body{
+  background-color: black;
+}
+
+#logo{
+  /* height: 30.5938px; */
+  width: 115.3438px;
+  cursor: pointer;
+  max-height: 100%;
+  min-width: auto;
+  max-height: auto;
+  display: block;
+  position: relative;
+  mix-blend-mode: color-burn;
+}
+
+article{
+  margin: 0 auto;
+  width: 90%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menus{
+  align-items: center;
+  width: 900px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menus>a{
+  color: red;
+  list-style: none;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 6px;
+  transition: 0.4s all;
+}
+
+.menus>a:hover{
+  border-radius: 6px;
+  background-color: rgba(255, 0, 0, 0.696);
+  color: black;
+}
+
+/* login */
+
+#form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #54545400;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  margin-top: 40px;
+  border-radius: 6px;
+}
+
+h3{
+  color: aliceblue;
+  font-size: 45px;
+  margin-top: 30px;
+}
+
+.details{
+  text-align: left;
+  margin: 50px;
+}
+
+.login_user>label{
+  color: white;
+  font-size: 35px;
+}
+
+.login_user>input{
+  color: aliceblue;
+  border-radius: 6px;
+  font-size: 35px;
+  margin: 10px 0px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1.5px solid aliceblue;
+}
+
+.login_user>input:focus{
+  border-color: rgb(255, 0, 0);
+  outline: none;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn>button{
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.4s ease all;
+  background-color: aliceblue;
+}
+
+.btn>button:hover{
+  color: aliceblue;
+  background-color: rgba(255, 0, 0, 0.696);
+}
+
+#email_icon {
+  position: relative;
+  right: 8%;
+}
+
+#pass_icon{
+  position: relative;
+  right: 8%;
+}
+
+/* SIGNUP PAGE  */
+
+.signup_details{
+  text-align: left;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.signup_user>label{
+  color: white;
+  font-size: 35px;
+  text-align: left;
+  display: block;
+}
+
+.signup_user>input{
+  border-radius: 6px;
+  font-size: 35px;
+  margin: 10px 0px;
+  text-decoration: none;
+  background-color: transparent;
+  color: aliceblue;
+  /* border: none; */
+}
+
+.signup_user>input:focus{
+  border-color: rgb(255, 0, 0);
+  outline: none;
+}
+
+.signup_user_gender>label{
+  color: white;
+  font-size: 35px;
+  /* text-align: left; */
+  padding-left: 10px;
+}
+
+.signup_user_gender input[type="radio"]{
+  height: 18px;
+  width: 18px;
+  margin-top: 25px;
+  gap: 30px;
+}
+
+/* Home Page */
+
+#video{
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  position: fixed;
+}
+
+.home-bg>img{
+  width: 100%;
+  height: 89.4vh;
+}
+
+.name{
+  position: relative;
+  top: 235px;
+}
+
+.name>img{
+  height: 180px;
+  width: 600px;
+  margin-left: 60px;
+  display: block;
+}
+
+.name>strong{
+  font-family: "NetflixSans",sans-serif;
+  font-size: 30.2px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-decoration: none solid rgb(70,211,105);
+  color: #46D369;
+  height: auto;
+  width: auto;
+  margin-left: 60px;
+}
+
+.name>label{
+  font-family: "NetflixSans",sans-serif;
+  height: 28.7917px;
+  width: 47.0104px;
+  margin: 0 0 5px 25px;
+  font-size: 30.2px;
+  line-height: 28.8px;
+  text-decoration: none solid rgb(229,229,229);
+  color: #E5E5E5;
+}
+
+/* second page home */
+
+.sec-home-bg{
+  background-image: url(./Resources/home-2nd-bg.jpg);
+}

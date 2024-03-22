@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Adminarticle{
+    display: flex;
+
+}
+
+/* Admin sidebar  */
+
+.Admin-sidebar{
+    /* border: 1.5px solid white; */
+    width: 25%;
+    height: 89.3vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.admin-sidebar-bg{
+    background-image: url(../Resources/Admin-sidebar-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Admin-sidebar h1{
+    color: aliceblue;
+    font: 600;
+    font-size: 45px;
+    padding: 15px;
+    margin: 15px 10px;
+}
+
+.Admin-sidebar ul li{
+    /* border: 2px solid black; */
+    list-style: none;
+    padding: 10px 35px;
+    width: 350px;
+    height: 60px;
+    text-align: left;
+}
+
+.Admin-sidebar a{
+    color: aliceblue;
+    font-size: 35px;
+    text-decoration: none;
+    padding: 10px 0px;
+    transition: 0.3s ease-in-out all;
+}
+
+.Admin-sidebar ul li a:hover{
+    font-size: 38px;
+    color: rgba(255, 0, 0, 0.696);
+}
+
+/* Admin Mainbar */
+
+.admin-main-bg{
+    background-image: url(../Resources/Admin-main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
+.Admin-mainbar{
+    /* border: 1.5px solid white; */
+    width: 80%;
+    height: 89.3vh;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+
+.card-details{
+    border: 2px solid rgb(232, 232, 232);
+    border-radius: 6px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #5454545e;
+}
+
+.card-details>label{
+    font-size: 35px;
+    padding: 6px;
+}
+
+.card-details a{
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.card-details button{
+    border-radius: 6px;
+    font-size: 25px;
+    padding: 8px;
+    transition: 0.3s ease all;
+    margin: 10px;
+}
+
+.card-details a:hover{
+    color: aliceblue;
+}
+
+.card-details button:hover{
+    background-color: rgba(255, 0, 0, 0.696);
+    color: aliceblue;
+}
+
+/*------ admin dashboard --------------*/
